@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: paleturquoise;
+}
+
+#items {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item1,.item2,.item3,.item4 {
+    width: 300px;
+    background-color: white;
+    border-width: 0 3px 3px 0;
+    border-color: rgb(193, 186, 186);
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 60%;
+    display: block;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+.bottom {
+    padding: 10px;
+}
+
+.gender {
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.container1 div:first-child div:first-child {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.container1 div:first-child div:last-child {
+    font-size: 14px;
+    color: gray;
+}
+
+.category {
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(218, 54, 4);
+    height: 30px;
+    line-height: 30px;
+    width: 60px;
+    text-align: center;
+}
+
+.rating {
+    display: flex;
+}
+
+.rating img {
+    width: 20px;
+    height: 20px;
+}
+
+.rating div {
+    transform: translateY(3px);
+}
+.colors div {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.colors{
+    display: flex;
+}
+.container2 {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sizes div{
+    margin-top: 3px;
+    display: inline-block;
+    margin-left: 12px;
+}
+.stock {
+    margin-top: 3px;
+    font-size: 14px;
+    color: aqua;
+}
+.container3 {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-around
+}
+.previousPrice {
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-top: 5px;
+}
+.discountPercent {
+    color: rgb(218, 54, 4);
+}
